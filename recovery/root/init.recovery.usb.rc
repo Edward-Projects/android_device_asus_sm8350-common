@@ -63,6 +63,9 @@ on property:ro.product.device=I005D
 on property:ro.product.device=I006D
     setprop vendor.usb.product_string "ZenFone 8"
 
+on property:ro.product.device=I007D
+    setprop vendor.usb.product_string "Smartphone for Snapdragon Insiders"
+
 on property:ro.boot.usbconfigfs=false
    setprop sys.usb.configfs 0
 
